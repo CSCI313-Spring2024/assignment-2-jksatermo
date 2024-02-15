@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      img {
+        width: 400px;
+        border-radius: 20px;
+        margin-left: 500px;
+      }
+    </style>
+  </head>
+  <div class="text-bg-dark p-3">
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Welcome!</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Bio">Biography</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Hobbies">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Websites">Favorite Websites</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Here is our main header that is used across all the pages of our website -->
+
+    <header>
+      <h1 class="text-center">Jackson Satermo - Computer Science Major</h1>
+    </header>
+
+    <img src="images/Jacksons_Picture.jpg" class="img-fluid" alt="a picture of Jackson Satermo">
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="text-center"colspan="4">My Class Schedule</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">Weekday</th>
+          <th scope="col">Classes</th>
+          <th scope="col">Times</th>
+        </tr>
+        <tr>
+          <th scope="row">Monday</th>
+          <td>CS 313</td>
+          <td>11am-11:50am</td>
+        </tr>
+        <tr>
+          <th scope="row">Tuesday</th>
+          <td>CS 445 | CS 336 | Stats 368 | CS 467</td>
+          <td>11am-4:45pm</td>
+        </tr>
+        <tr>
+          <th scope="row">Wednesday</th>
+          <td>CS 313</td>
+          <td>11am-11:50am</td>
+        </tr>
+        <tr>
+          <th scope="row">Thursday</th>
+          <td>CS 445 | CS 336 | Stats 368 | CS 467</td>
+          <td>11am-4:45pm</td>
+        </tr>
+        <tr>
+          <th scope="row">Friday</th>
+          <td>CS 313</td>
+          <td>11am-11:50am</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Here is our page's main content -->
+    <main>
+      <!-- It contains an article -->
+      <article>
+        <h2 class="text-center" id="Bio">Who I Am:</h2>
+
+        <p>
+          I am an NDSU senior studying computer science. I am interested in
+          career in web development. I have taken classes on web scripting
+          languages and I enjoy creating websites. One unique thing about my
+          degree is that I am a returning student. I am coming from the old
+          curriculum. Therefore, I am not required to choose a "track". This
+          frees me to choose electives in many different areas. As such, I took
+          an elective in artificial intelligence as well as web development.
+        </p>
+      </article>
+
+      <!-- the aside content can also be nested within the main content -->
+      <aside>
+        <h2 id="Hobbies">My Favorite Hobbies</h2>
+        <ol>
+          <li>Going to Church</li>
+          <li>Playing Video Games</li>
+          <li>Working Out</li>
+          <li>Watching Sports</li>
+        </ol>
+      </aside>
+      
+      <aside>
+        <h2>Favorite Movies</h2>
+        <ul>
+          <li>Star Wars</li>
+          <li>The Avengers</li>
+          <li>Spiderman</li>
+        </ul>
+      </aside>
+
+      <aside>
+        <h2>My Favorite Websites</h2>
+
+        <ul id="Websites">
+          <li><a href="https://chat.openai.com/">ChatGPT</a></li>
+          <li><a href="https://www.gotquestions.org/">GotQuestions</a></li>
+          <li><a href="https://www.youtube.com">YouTube</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+      <p class="text-center">©Copyright 2024 by Jackson Satermo. All rights reserved.</p>
+    </footer>
+  </body>
+</div>
+</html>
